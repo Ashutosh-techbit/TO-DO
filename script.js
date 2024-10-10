@@ -5,7 +5,7 @@ setInterval(()=>{
     },100)
 
 
-//getting task 
+//getting task from user
 function newtask() {
     let inputtask = document.querySelector('#insert').value;
     return inputtask;
